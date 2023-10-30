@@ -1,1 +1,1 @@
-export * from "@/data/project"
+export * from '@/data/project'

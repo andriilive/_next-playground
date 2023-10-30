@@ -1,6 +1,7 @@
-import NextLinks from "@/components/draft/nextLinks";
-import Image from "next/image"
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link'
+
+import NextLinks from '@/components/draft/nextLinks'
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            By{' '}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -44,7 +45,6 @@ export default function Home() {
       </div>
 
       <NextLinks />
-
     </main>
   )
 }

@@ -29,7 +29,7 @@
   },
   "settings": {
     "tailwindcss": {
-      "callees": ["cn"],
+      "callees": ["cn", "cv"],
       "config": "tailwind.config.ts"
     },
     "next": {
