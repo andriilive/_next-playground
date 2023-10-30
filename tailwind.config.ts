@@ -1,13 +1,11 @@
+import { commonColors } from '@nextui-org/theme'
 import { withTV } from 'tailwind-variants/transformer'
 import type { Config } from 'tailwindcss'
-import { fontFamily, colors } from 'tailwindcss/defaultTheme'
-import { commonColors} from "@nextui-org/theme";
+import { fontFamily } from 'tailwindcss/defaultTheme'
 
 const config: Config = {
   darkMode: 'class',
-  content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     container: {
       center: true,
@@ -19,7 +17,7 @@ const config: Config = {
     extend: {
       colors: {
         default: commonColors.blue['500'],
-        primary: commonColors.blue['500']
+        primary: commonColors.blue['500'],
       },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],

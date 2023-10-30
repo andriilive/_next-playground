@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
-
 import NextLinks from '@/components/draft/nextLinks'
 
 export default function Home() {

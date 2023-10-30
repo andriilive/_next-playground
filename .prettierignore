@@ -8,3 +8,4 @@ node_modules
 *.draft.*
 draft
 .husky
+next-env.d.ts

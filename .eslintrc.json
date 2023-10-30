@@ -1,6 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "root": true,
   "extends": [
-    "next/core-web-vitals",
+    "next",
     "prettier",
     "plugin:tailwindcss/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -29,7 +31,7 @@
   },
   "settings": {
     "tailwindcss": {
-      "callees": ["cn", "cv"],
+      "callees": ["cn", "cva", "clsx", "tv"],
       "config": "tailwind.config.ts"
     },
     "next": {
