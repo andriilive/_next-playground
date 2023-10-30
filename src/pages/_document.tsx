@@ -1,5 +1,5 @@
-import {AppConfig} from "@/config";
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Head, Html, Main, NextScript } from "next/document"
+import { AppConfig } from "@/config"
 
 export default function Document() {
   return (

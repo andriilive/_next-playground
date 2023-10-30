@@ -1,3 +1,3 @@
 export const AppConfig = {
-    locale: 'en',
-};
+  locale: "en",
+}
