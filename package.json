@@ -17,10 +17,10 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "check:prettier": "prettier --check . --debug-check",
-    "check:eslint": "eslint . --debug",
+    "check:prettier": "prettier --cache .",
+    "check:eslint": "eslint . --cache",
     "generate:sitemap": "next-sitemap",
-    "pre-commit": "prettier --write . && eslint --fix . --cache",
+    "pre-commit": "npm run check:prettier -- --write && npm run check:eslint -- --fix",
     "pre-push": "npm run build",
     "postbuild": "npm run generate:sitemap",
     "analyze": "ANALYZE=true next build"
