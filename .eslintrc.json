@@ -30,10 +30,6 @@
     ]
   },
   "settings": {
-    "tailwindcss": {
-      "callees": ["cn", "cva", "clsx", "tv"],
-      "config": "tailwind.config.ts"
-    },
     "next": {
       "rootDir": ["./"]
     }

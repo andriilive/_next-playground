@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import NextLinks from '@/components/draft/nextLinks'
+import NextLinks from '@/components/_drafts/nextLinks'
 
 export default function Home() {
   return (

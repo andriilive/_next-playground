@@ -1,6 +1,10 @@
 public
 node_modules
-*.draft.*
-drafts
-.husky
-.next
+
+_draft_*.*
+_drafts
+
+.*/*
+*.json
+*.md
+next-env.d.ts

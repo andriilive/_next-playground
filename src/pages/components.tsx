@@ -1,6 +1,6 @@
 import { clsx } from 'clsx'
 import { Button } from '@/components/ui/button'
-import NextLinks from '@/components/draft/nextLinks'
+import NextLinks from '@/components/_drafts/nextLinks'
 
 export default function PageComponents() {
   return (

@@ -1,11 +1,4 @@
-package.json
-package-lock.json
+package*.json
 public
-.yarn
 node_modules
-.next
-.contentlayer
-*.draft.*
-draft
-.husky
 next-env.d.ts
