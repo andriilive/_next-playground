@@ -5,6 +5,7 @@ _draft_*.*
 _drafts
 
 .*/*
-*.json
 *.md
 next-env.d.ts
+*.css
+*.json
