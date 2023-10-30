@@ -2,3 +2,5 @@ public
 node_modules
 *.draft.*
 drafts
+.husky
+.next
