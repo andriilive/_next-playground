@@ -23,15 +23,66 @@ export default function NextLinks() : JSX.Element {
                 className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             >
                 <h2 className={`mb-3 text-2xl font-semibold`}>
+                    Components{" "}
+                    <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                    Components
+                </p>
+            </Link>
+
+            <a
+                href="https://github.com/shadcn-ui/ui/tree/main/templates/next-template"
+                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <h2 className={`mb-3 text-2xl font-semibold`}>
+                    ChadCN Starter{" "}
+                    <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                    ChadCN next starter
+                </p>
+            </a>
+
+            <a
+                href="https://ui.shadcn.com/docs/components/accordion"
+                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <h2 className={`mb-3 text-2xl font-semibold`}>
                     ChadCN{" "}
                     <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
                 </h2>
                 <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-                    Components ChadCN
+                    ChadCN Components
                 </p>
-            </Link>
+            </a>
+
+            <a
+                href="https://nextui.org/docs/components/textarea"
+                className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <h2 className={`mb-3 text-2xl font-semibold`}>
+                    NextUI{" "}
+                    <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+                </h2>
+                <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+                    NextUI Theme
+                </p>
+            </a>
 
             <a
                 href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
