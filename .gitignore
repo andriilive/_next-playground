@@ -41,3 +41,7 @@ next-env.d.ts
 
 # caches
 .eslintcache
+
+# generated SEO
+public/sitemap*.xml
+public/robots.txt
