@@ -1,9 +1,7 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import {Data} from "@/types";
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-type Data = {
-  name: string
-}
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(
   req: NextApiRequest,
