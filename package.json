@@ -10,8 +10,9 @@
     "prettier": "prettier --check . --debug-check",
     "eslint": "eslint . --debug",
     "prepare": "husky install",
-    "format": "prettier --write . && eslint --fix . && npm run lint",
-    "pre-commit": "npm run format"
+    "format": "prettier --write . && eslint --fix . --cache",
+    "pre-commit": "npm run format",
+    "pre-push": "npm run build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
