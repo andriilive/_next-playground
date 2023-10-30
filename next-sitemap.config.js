@@ -1,4 +1,4 @@
 /** @type {import('next-sitemap').IConfig} */
-const sitemapConfig = require('./next-seo.config').sitemapConfig
+const sitemapConfig = require('./config').sitemapConfig
 
 module.exports = sitemapConfig

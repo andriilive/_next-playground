@@ -17,9 +17,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "types": [
-      "mdx"
-    ],
     "paths": {
       "@/*": [
         "./src/*"
@@ -29,6 +26,9 @@
       ],
       "@/styles/*": [
         "./styles/*"
+      ],
+      "@/posts/*": [
+        "./_posts/*"
       ]
     }
   },
